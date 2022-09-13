@@ -25,7 +25,6 @@ void jack_bauer(void)
 				minutes_ones = '0';
 				while (minutes_ones < 58)
 				{
-				
 					_putchar(hours_tens);
 					_putchar(hours_ones);
 					_putchar(':');
@@ -33,7 +32,7 @@ void jack_bauer(void)
 					_putchar(minutes_ones);
 					_putchar('\n');
 					minutes_ones++;
-				}	
+				}
 				minutes_ones = '0';
 				minutes_tens++;
 			}
