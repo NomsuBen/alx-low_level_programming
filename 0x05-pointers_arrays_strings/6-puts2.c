@@ -1,11 +1,11 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * puts2 - prints every other character of a string, starting with the first character, followed by a new line
  * @str: the used string reference
  * Return: 0
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int i = o;
 
