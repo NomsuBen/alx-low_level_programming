@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+/**
+ * the program prints a[2] = 98
+ */
 int main(void)
 {
 	int n;
+
 	int [5];
 	int *p;
 
