@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-/**
- * Description:  
- */
-
 int main(void)
 {
 	int n;
