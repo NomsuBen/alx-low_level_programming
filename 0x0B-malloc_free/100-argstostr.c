@@ -10,7 +10,7 @@
  */
 
 char *argstostr(int ac, char **av)
-i{
+{
 	int size, count, count1, count2 = 0;
 	char *ptr;
 
