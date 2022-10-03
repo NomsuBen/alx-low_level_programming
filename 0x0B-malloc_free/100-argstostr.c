@@ -10,7 +10,7 @@
  */
 
 char *argstostr(int ac, char **av)
-{
+i{
 	int size, count, count1, count2 = 0;
 	char *ptr;
 
@@ -42,6 +42,8 @@ char *argstostr(int ac, char **av)
 			ptr[count2] = av[count][count1];
 			count2++;
 		}
+		ptr[count2] = '\n';
+		count2++;
 	}
 	ptr[count2] = '\0';
 	return (ptr);
