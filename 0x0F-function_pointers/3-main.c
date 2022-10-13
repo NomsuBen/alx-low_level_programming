@@ -1,10 +1,12 @@
 #include "3-calc.h"
+
 /**
  * main -  program that performs simple operations.
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: 0 if success otherwise exit with error number
  */
+
 int main(int argc, char *argv[])
 {
 	int a, b;
