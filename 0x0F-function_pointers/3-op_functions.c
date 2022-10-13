@@ -35,6 +35,7 @@ int op_sub(int a, int b)
  * @b: second operand
  * Return: the quotient
  */
+
 int op_div(int a, int b)
 {
 	return (a / b);
@@ -45,6 +46,7 @@ int op_div(int a, int b)
  * @b: second operand
  * Return: the remainder as integer
  */
+
 int op_mod(int a, int b)
 {
 	return (a % b);
