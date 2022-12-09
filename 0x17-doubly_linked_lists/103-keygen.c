@@ -11,7 +11,7 @@
 int f4(char *usrn, int len)
 {
 	int ch;
-	int vch
+	int vch;
 	unsigned int rand_num;
 
 	ch = *usrn;
